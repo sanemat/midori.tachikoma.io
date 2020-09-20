@@ -5,6 +5,7 @@
   "main": "index.js",
   "private": true,
   "scripts": {
+    "start": "serve",
     "test": "exit 1"
   },
   "repository": {
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/sanemat/midori.tachikoma.io/issues"
   },
-  "homepage": "https://github.com/sanemat/midori.tachikoma.io#readme"
+  "homepage": "https://github.com/sanemat/midori.tachikoma.io#readme",
+  "devDependencies": {
+    "serve": "^11.3.2"
+  }
 }
