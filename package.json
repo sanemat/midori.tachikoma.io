@@ -1,0 +1,20 @@
+{
+  "name": "midori.tachikoma.io",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanemat/midori.tachikoma.io.git"
+  },
+  "author": "Matt",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/sanemat/midori.tachikoma.io/issues"
+  },
+  "homepage": "https://github.com/sanemat/midori.tachikoma.io#readme"
+}
