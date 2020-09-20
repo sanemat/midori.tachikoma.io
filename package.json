@@ -19,8 +19,9 @@
     "url": "git+https://github.com/sanemat/midori.tachikoma.io.git"
   },
   "scripts": {
-    "prettier": "prettier --write *.{js,html,css} index.html",
+    "prettier": "prettier --write *.{js,html,css}",
+    "prettier:lint": "prettier --list-different *.{js,html,css}",
     "start": "serve",
-    "test": "exit 1"
+    "test": "npm run prettier:lint"
   }
 }
