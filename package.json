@@ -5,6 +5,7 @@
   "main": "index.js",
   "private": true,
   "scripts": {
+    "prettier": "prettier --write *.{js,html,css} index.html",
     "start": "serve",
     "test": "exit 1"
   },
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/sanemat/midori.tachikoma.io#readme",
   "devDependencies": {
+    "prettier": "^2.1.2",
     "serve": "^11.3.2"
   }
 }
