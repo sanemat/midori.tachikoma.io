@@ -1,0 +1,27 @@
+{
+  "name": "midori.tachikoma.io",
+  "description": "",
+  "version": "0.1.0",
+  "author": "Matt",
+  "bugs": {
+    "url": "https://github.com/sanemat/midori.tachikoma.io/issues"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.2",
+    "serve": "^11.3.2"
+  },
+  "homepage": "https://github.com/sanemat/midori.tachikoma.io#readme",
+  "license": "UNLICENSED",
+  "main": "index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanemat/midori.tachikoma.io.git"
+  },
+  "scripts": {
+    "prettier": "prettier --write *.{js,html,css}",
+    "prettier:lint": "prettier --list-different *.{js,html,css}",
+    "start": "serve",
+    "test": "npm run prettier:lint"
+  }
+}
